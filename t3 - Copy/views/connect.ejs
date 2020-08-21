@@ -1,0 +1,53 @@
+<%- include('partials/header') -%>
+
+<div class="innerBody connect">
+  <div class="inner">
+    <section class="head">
+      <h1>
+        Hello.
+      </h1>
+    </section>
+    <section class="content">
+      <span>
+        <p>
+          Are you curious about how VR in education works? Interested in
+          bringing kinesthetic learning to your school? Have questions about the
+          Inspirit method? Leave us a note using this form and we will be in
+          touch within 48 hours.
+        </p>
+      </span>
+    </section>
+    <section class="form">
+      <form action="">
+        <label>Name</label>
+        <div class="name">
+          <span>
+            <input type="text" name="first_name" id="first_name" />
+            <label>First Name</label>
+          </span>
+          <span>
+            <input type="text" name="last_name" id="last_name" />
+            <label>Last Name</label>
+          </span>
+        </div>
+
+        <div>
+          <label>Email</label><br />
+          <input type="email" name="Email" id="email" /><br />
+        </div>
+
+        <div>
+          <label>Subject</label><br />
+          <input type="text" name="subject" id="subject" /><br />
+        </div>
+        <div>
+          <label>Message</label><br />
+          <textarea name="message" id="message" cols="30" rows="5"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+</div>
+
+<%- include('partials/footer') -%>
